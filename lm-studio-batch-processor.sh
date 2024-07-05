@@ -46,7 +46,7 @@ sleep 17
 
 # set up lms
 lms server start
-lms load $MODEL_NAME --context-length=8192 # works on dev node, nio GPU
+lms load $MODEL_NAME --context-length=8192 # need to figure out GPU implementation!
 
 # Loop over text files in input folder
 for file in "$INPUT_FOLDER"/*; do
