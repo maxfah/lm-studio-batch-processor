@@ -1,0 +1,6 @@
+name: LMStudio
+channels:
+  - defaults
+dependencies:
+  - python
+  - openai
